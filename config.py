@@ -4,7 +4,7 @@ import os
 # 文件路径配置
 
 ## 配置保存位置
-CONFIG_DIR = os.path.dirname(os.path.adspth(__file__))
+CONFIG_DIR = os.path.dirname(os.path.abspath(__file__))
 ## COOKIE保存位置
 COOKIE_FILE = os.path.join(CONFIG_DIR, 'cookies.json')
 ## 数据保存位置
